@@ -38,6 +38,10 @@ body {
   font-weight: 400;
   line-height: 150%;
 }
+.menu-main:hover,
+.menu-main:focus {
+  color: var(--button-color-header);
+}
 .filter-button {
   color: var(--white-color-private);
   border-radius: 5px;
