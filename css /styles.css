@@ -2,16 +2,63 @@ body {
   background-color: var(--background-main);
 }
 :root {
+  --text-nav: "Raleway", sans-serif;
+  --text-sec: "Roboto", sans-serif;
   --background-main: #210e09;
   --button-color-header: #d5621d;
   --white-color-private: #ffffff;
+  --secondary-white-color: #f4f4fd;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 .button-header {
   color: var(--white-color-private);
   background-color: var(--background-main);
   border-radius: 5px;
-  border: 2px solid var(--accent, var(--button-color-header));
+  border: 2px solid var(--button-color-header);
+  cursor: pointer;
+}
+.button-header:hover,
+.button-header:focus {
+  color: var(--white-color-private);
+  background-color: var(--button-color-header);
 }
 .head {
   background-color: var(--background-main);
+}
+.menu-main {
+  color: var(--white-color-private);
+  font-family: var(--text-sec);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.filter-button {
+  color: var(--white-color-private);
+  border-radius: 5px;
+  border: 2px solid var(--button-color-header);
+  background: rgba(213, 98, 29, 0.1);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color-private);
+  background-color: var(--button-color-header);
+}
+.filter-button-two {
+  color: var(--white-color-private);
+  border-radius: 5px;
+  border: 2px solid var(--button-color-header);
+  background: rgba(213, 98, 29, 0.05);
+  cursor: pointer;
+}
+.filter-button-two:hover,
+.filter-button-two:focus {
+  color: var(--white-color-private);
+  background-color: var(--button-color-header);
 }
