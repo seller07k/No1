@@ -1,0 +1,16 @@
+body {
+  background-color: var(--background-main);
+}
+:root {
+  --background-main: #210e09;
+  --button-color-header: #d5621d;
+  --white-color-private: #ffffff;
+}
+.button-header {
+  color: var(--white-color-private);
+  border-radius: 5px;
+  border: 2px solid var(--accent, var(--button-color-header));
+}
+.head {
+  background-color: var(--background-main);
+}
