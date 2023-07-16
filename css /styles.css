@@ -8,6 +8,7 @@ body {
 }
 .button-header {
   color: var(--white-color-private);
+  background-color: var(--background-main);
   border-radius: 5px;
   border: 2px solid var(--accent, var(--button-color-header));
 }
